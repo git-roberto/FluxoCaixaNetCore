@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FluxoCaixa.Application.DTO\FluxoCaixa.Application.DTO.csproj" />
+    <ProjectReference Include="..\FluxoCaixa.Domain.Core\FluxoCaixa.Domain.Core.csproj" />
+    <ProjectReference Include="..\FluxoCaixa.Infrastruture.CrossCutting.Adapter\FluxoCaixa.Infrastruture.CrossCutting.Adapter.csproj" />
+  </ItemGroup>
+
+</Project>
